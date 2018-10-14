@@ -8,4 +8,55 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 /* Begin site styles below */
 
-/* Base Styles (element selectors; color, typography, and that's it)*/
+/* 1 em = 18px;
+1 lead = 22px;
+Modular scale (minor third): https://www.modularscale.com/?18&px&1.2 */
+
+/* ===== BASE STYLES ===== */
+
+html {
+  font-size: 1.125em; /* 16px = 1em, 18px / 16px = 1.125em */
+  line-height: 1.222em; /* 18px * 120% = 21.6px, 22px / 18px = 1.222em */
+  padding: 1.222em 1em; /* top right */
+}
+
+p {
+  padding-bottom: 1.222em; /* 18px * 120% = 21.6px, 22px / 18px = 1.222em */
+}
+
+h1 {
+  font-size: 2.799em;
+  line-height: 1.833em; /* Basic line height is 22px = 1.222em, plus one half 33px / 18 = 1.833em */
+}
+
+h2 {
+  font-size: 2.333em;
+  line-height:  1.833em; /* Basic line height is 22px = 1.222em, plus one half 33px / 18 = 1.833em */
+}
+
+h3 {
+  font-size: 1.944em;
+  line-height: 1.528em; /* Basic line height is 22px = 1.222em, plus one fourth 27.5px / 18 = 1.528em */
+}
+
+h4 {
+  font-size: 1.62em;
+  line-height: 1.528em; /* Basic line height is 22px = 1.222em, plus one fourth 27.5px / 18 = 1.528em */
+}
+
+h5 {
+  font-size: 1.35em;
+  line-height: 1.528em; /* Basic line height is 22px = 1.222em, plus one fourth 27.5px / 18 = 1.528em */
+}
+
+ul {
+  padding: 0 0 0.6111em 1.222em; /* top right bottom left */
+}
+
+li {
+  padding-bottom: 0.6111em; /* half of one lead (22), 11 / 18 = 0.61111 */
+}
+
+/* ==== LAYOUT STYLES ==== */
+
+/* ==== MODULAR STYLES === */
