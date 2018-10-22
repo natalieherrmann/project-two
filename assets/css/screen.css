@@ -18,6 +18,7 @@ html {
   font-size: 1.125em; /* 16px = 1em, 18px / 16px = 1.125em */
   line-height: 1.222em; /* 18px * 120% = 21.6px, 22px / 18px = 1.222em */
   padding: 1.222em; /* 22px / 18px = 1.222em */
+  font-family: 'Playfair Display', Georgia, 'Lucida Bright', serif;
 }
 
 p {
@@ -25,11 +26,13 @@ p {
 }
 
 h1, h2 {
+  font-family: 'Playfair Display', Georgia, 'Lucida Bright', serif;
   font-size: 1.424em;
   line-height: 1.8333em; /* Basic line height is 22px = 1.222em, plus one half 33px / 18 = 1.8333em */
 }
 
 h3, h4, h5 {
+  font-family: 'Playfair Display', Georgia, 'Lucida Bright', serif;
   font-size: 1.266em;
   line-height: 1.528em; /* Basic line height is 22px = 1.222em, plus one fourth 27.5px / 18 = 1.528em */
 }
