@@ -10,7 +10,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 /* 1 em = 18px;
 1 lead = 22px;
-Modular scale (minor third): https://www.modularscale.com/?18&px&1.2 */
+Modular scale (major second):https://www.modularscale.com/?18&px&1.125 */
 
 /* ===== BASE STYLES ===== */
 
@@ -24,18 +24,18 @@ p {
   padding-bottom: 1.222em; /* 18px * 120% = 21.6px, 22px / 18px = 1.222em */
 }
 
-h1, h2, h3, h4 {
-  font-size: 1.62em;
-  line-height: 1.528em; /* Basic line height is 22px = 1.222em, plus one fourth 27.5px / 18 = 1.528em */
+h1, h2 {
+  font-size: 1.424em;
+  line-height: 1.8333em; /* Basic line height is 22px = 1.222em, plus one half 33px / 18 = 1.8333em */
 }
 
-h5 {
-  font-size: 1.35em;
+h3, h4, h5 {
+  font-size: 1.266em;
   line-height: 1.528em; /* Basic line height is 22px = 1.222em, plus one fourth 27.5px / 18 = 1.528em */
 }
 
 ul {
-  padding: 0 0 0.6111em 1.222em; /* top right bottom left */
+  padding: 0 0 0 1.222em; /* top right bottom left */
 }
 
 li {
