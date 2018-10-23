@@ -53,11 +53,18 @@ li {
   padding-bottom: 0.6111em; /* half of one lead (22), 11 / 18 = 0.61111 */
 }
 
+a {
+  color: #005959;
+}
+
 img {
   display: block;
   max-width: 100%;
 }
 
+/* ==== LAYOUT STYLES ==== */
+
+/* ==== MODULAR STYLES === */
 nav > ul {
   background-color: #00a7a7;
   display: flex;
@@ -78,6 +85,18 @@ nav > ul li a {
   text-decoration: none; /* Remove underline */
 }
 
-/* ==== LAYOUT STYLES ==== */
+nav > ul li:hover,
+nav > ul li a:hover,
+nav > ul li a:active,
+nav > ul li a:focus {
+  color: #fefefe;
+  background-color: #2eb7b7;
+}
 
-/* ==== MODULAR STYLES === */
+a:hover,
+a:active,
+a:focus {
+  color: #00a7a7;
+}
+
+/* ==== STATE STYLES === */
