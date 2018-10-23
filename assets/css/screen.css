@@ -17,7 +17,7 @@ Modular scale (major second):https://www.modularscale.com/?18&px&1.125 */
 html {
   background-color: #fefefe;
   color: #262626;
-  font-family: 'Playfair Display', Georgia, 'Lucida Bright', serif;
+  font-family: "Playfair Display", Georgia, "Lucida Bright", serif;
   font-size: 1.125em; /* 16px = 1em, 18px / 16px = 1.125em */
   line-height: 1.222em; /* 18px * 120% = 21.6px, 22px / 18px = 1.222em */
   padding: 1.222em; /* 22px / 18px = 1.222em */
@@ -28,7 +28,7 @@ p {
 }
 
 h1, h2 {
-  font-family: 'Paytone One', 'Gill Sans', Verdana, sans-serif;
+  font-family: "Paytone One", "Gill Sans", Verdana, sans-serif;
   font-size: 1.424em;
   line-height: 1.8333em; /* Basic line height is 22px = 1.222em, plus one half 33px / 18 = 1.8333em */
 }
@@ -39,9 +39,9 @@ h3, h4, h5 {
 }
 
 h3, #about h2 {
-  border-bottom: solid .2777em #00a7a7; /* 5px / 18px = .2777em */
+  border-bottom: solid 0.2777em #00a7a7; /* 5px / 18px = .2777em */
   margin-bottom: 0.6111em; /* half of one lead (22), 11 / 18 = 0.61111 */
-  font-family: 'Paytone One', 'Gill Sans', Verdana, sans-serif;
+  font-family: "Paytone One", "Gill Sans", Verdana, sans-serif;
 }
 
 ul {
