@@ -62,11 +62,22 @@ img {
   max-width: 100%;
 }
 
+figcaption {
+  font-size: 0.889em;
+  color: #333333;
+  margin-bottom: 0.6111em; /* half of one lead (22), 11 / 18 = 0.61111 */
+}
+
 /* ==== LAYOUT STYLES ==== */
+#current a {
+  border-top: solid #52c3c3;
+  border-bottom: solid #52c3c3;
+}
 
 /* ==== MODULAR STYLES === */
 nav > ul {
   background-color: #00a7a7;
+  border: solid #00a7a7 0.2777em; /* 5px / 18px = .2777em */
   display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
@@ -77,7 +88,7 @@ nav > ul li {
   background-color: #00a7a7;
   float: left;
   margin-top: 0;
-  padding: .2777em; /* 5px / 18px = .2777em */
+  padding: 0.2777em; /* 5px / 18px = .2777em */
 }
 
 nav > ul li a {
@@ -90,7 +101,7 @@ nav > ul li a:hover,
 nav > ul li a:active,
 nav > ul li a:focus {
   color: #fefefe;
-  background-color: #2eb7b7;
+  background-color: #52c3c3;
 }
 
 a:hover,
