@@ -28,6 +28,7 @@ p {
 }
 
 h1, h2 {
+  font-family: 'Paytone One', 'Gill Sans', Verdana, sans-serif;
   font-size: 1.424em;
   line-height: 1.8333em; /* Basic line height is 22px = 1.222em, plus one half 33px / 18 = 1.8333em */
 }
@@ -40,7 +41,7 @@ h3, h4, h5 {
 h3, #about h2 {
   border-bottom: solid .2777em #00a7a7; /* 5px / 18px = .2777em */
   margin-bottom: 0.6111em; /* half of one lead (22), 11 / 18 = 0.61111 */
-  font-weight: bold;
+  font-family: 'Paytone One', 'Gill Sans', Verdana, sans-serif;
 }
 
 ul {
