@@ -28,6 +28,7 @@ p {
 }
 
 h1, h2 {
+  clear: both;
   font-family: "Paytone One", "Gill Sans", Verdana, sans-serif;
   font-size: 1.424em;
   line-height: 1.8333em; /* Basic line height is 22px = 1.222em, plus one half 33px / 18 = 1.8333em */
@@ -55,6 +56,26 @@ li {
 img {
   display: block;
   max-width: 100%;
+}
+
+nav > ul {
+  background-color: #00a7a7;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  padding-left: 0; /* Don't indent like a normal list */
+}
+
+nav > ul li {
+  background-color: #00a7a7;
+  float: left;
+  margin-top: 0;
+  padding: .2777em; /* 5px / 18px = .2777em */
+}
+
+nav > ul li a {
+  color: #fefefe;
+  text-decoration: none; /* Remove underline */
 }
 
 /* ==== LAYOUT STYLES ==== */
