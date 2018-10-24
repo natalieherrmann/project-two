@@ -69,13 +69,9 @@ figcaption {
 }
 
 /* ==== LAYOUT STYLES ==== */
-#current a {
-  border-top: solid #52c3c3;
-  border-bottom: solid #52c3c3;
-}
 
 /* ==== MODULAR STYLES === */
-nav > ul, .contact {
+#contact-links, nav > #nav-bar {
   background-color: #00a7a7;
   border: solid #00a7a7 0.2777em; /* 5px / 18px = .2777em */
   display: flex;
@@ -84,33 +80,38 @@ nav > ul, .contact {
   padding-left: 0; /* Don't indent like a normal list */
 }
 
-nav > ul li, .contact > li {
+#contact-links > li, #nav-bar > li {
   background-color: #00a7a7;
   float: left;
   margin-top: 0;
   padding: 0.2777em; /* 5px / 18px = .2777em */
 }
 
-nav > ul li a, .contact > li a {
-  color: #fefefe;
-  text-decoration: none; /* Remove underline */
-}
-
-nav > ul li:hover,
-nav > ul li a:hover,
-nav > ul li a:active,
-nav > ul li a:focus,
-.contact > li a:hover,
-.contact > li a:active,
-.contact > li a:focus {
-  color: #fefefe;
-  background-color: #52c3c3;
-}
-
 a:hover,
 a:active,
 a:focus {
   color: #00a7a7;
+}
+
+#contact-links a, #nav-bar li a {
+  color: #fefefe;
+  text-decoration: none; /* Remove underline */
+}
+
+#contact-links a:hover,
+#contact-links a:active,
+#contact-links a:focus,
+#nav-bar li:hover,
+#nav-bar li a:hover,
+#nav-bar li a:active,
+#nav-bar li a:focus {
+  color: #fefefe;
+  background-color: #52c3c3;
+}
+
+#nav-bar #current a {
+  border-top: solid #52c3c3;
+  border-bottom: solid #52c3c3;
 }
 
 /* ==== STATE STYLES === */
