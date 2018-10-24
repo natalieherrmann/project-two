@@ -80,6 +80,11 @@ figcaption {
   padding-left: 0; /* Don't indent like a normal list */
 }
 
+/* Add space between footer and content */
+#contact-links {
+  margin-top: 1.8333em; /* one lead (22) + half (11) = 33 / 18 = 1.8333 */
+}
+
 #contact-links > li, #nav-bar > li {
   background-color: #00a7a7;
   float: left;
