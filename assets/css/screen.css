@@ -75,7 +75,7 @@ figcaption {
 }
 
 /* ==== MODULAR STYLES === */
-nav > ul {
+nav > ul, .contact {
   background-color: #00a7a7;
   border: solid #00a7a7 0.2777em; /* 5px / 18px = .2777em */
   display: flex;
@@ -84,14 +84,14 @@ nav > ul {
   padding-left: 0; /* Don't indent like a normal list */
 }
 
-nav > ul li {
+nav > ul li, .contact > li {
   background-color: #00a7a7;
   float: left;
   margin-top: 0;
   padding: 0.2777em; /* 5px / 18px = .2777em */
 }
 
-nav > ul li a {
+nav > ul li a, .contact > li a {
   color: #fefefe;
   text-decoration: none; /* Remove underline */
 }
@@ -99,7 +99,10 @@ nav > ul li a {
 nav > ul li:hover,
 nav > ul li a:hover,
 nav > ul li a:active,
-nav > ul li a:focus {
+nav > ul li a:focus,
+.contact > li a:hover,
+.contact > li a:active,
+.contact > li a:focus {
   color: #fefefe;
   background-color: #52c3c3;
 }
