@@ -106,7 +106,8 @@ figcaption {
 /* ==== MODULAR STYLES === */
 #contact-links, nav > #nav-bar {
   background-color: #00a7a7;
-  border: solid #00a7a7 0.2777em; /* 5px / 18px = .2777em */
+  border-bottom: solid #00a7a7 0.2777em; /* 5px / 18px = .2777em */
+  border-top: solid #00a7a7 0.2777em; /* 5px / 18px = .2777em */
   display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
@@ -179,6 +180,7 @@ a:focus {
     border-top: 0.2777em solid #00a7a7;
     margin-left: auto; /* Centers body on page */
     margin-right: auto; /* Centers body on page */
+    margin-top: 2.5em; /* nav-bar is around ~45px, 45 / 18
     width: 32.8em; /* 590.4 / 18 = 32.8 */
     padding: 1.833333em 5%;
   }
@@ -197,5 +199,12 @@ a:focus {
   #contact h2 {
     color: white;
     padding: 0 0.2777em; /* 5px / 18px = .2777em */
+  }
+
+  #nav-bar {
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
   }
 }
