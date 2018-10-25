@@ -73,7 +73,7 @@ figcaption {
   font-family: "Paytone One", "Gill Sans", Verdana, sans-serif;
 }
 
-#achievements li, #skills li, .job-responsibilities li {
+.job-responsibilities li, #achievements li, #skills li {
   list-style: disc;
 }
 
@@ -84,7 +84,21 @@ figcaption {
 .job-info {
   background-color: #f4f6f7;
   margin-bottom: 0.6111em; /* half of one lead (22), 11 / 18 = 0.61111 */
-  padding-left:  0.6111em;
+  padding-left: 0.6111em;
+}
+
+.view-pdf {
+  background-color: #e4e4e4;
+  border-radius: 0.2777em; /* Rounds the edges of the box */
+  /* 5px / 18px = .2777em */
+  padding: 0.2777em;
+  text-decoration: none; /* Remove underline */
+}
+
+.view-pdf:hover,
+.view-pdf:active,
+.view-pdf:focus {
+  background-color: #f4f6f7;
 }
 
 /* ==== MODULAR STYLES === */
