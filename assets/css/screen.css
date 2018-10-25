@@ -78,6 +78,23 @@ figcaption {
   text-align: center;
 }
 
+.job {
+  margin-bottom: 1.83333em; /* Line height = 22px. Line height * 1.5 / 18px = 1.83333em */
+}
+
+.title {
+  font-weight: bold;
+}
+
+.time, .location, .date, .title-desc {
+  color: #4d4d4d;
+  line-height: 1em; /* 18px / 18px = 1em */
+}
+
+#education-list {
+  padding-left: 0;
+}
+
 #achievements h4 {
   font-family: "Paytone One", "Gill Sans", Verdana, sans-serif;
 }
