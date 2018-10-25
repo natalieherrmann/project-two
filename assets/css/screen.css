@@ -153,3 +153,19 @@ a:focus {
 }
 
 /* ==== STATE STYLES === */
+
+@media screen and (min-width: 600px) {
+  html {
+    padding: 1.833333em 9%; /* 54px (aka 3 typographic grid lines) / 600 = 0.09 */
+    /* 22px + 11px / 18px = 1.833333em */
+  }
+
+  #research-day-img {
+    background-color: #f4f6f7;
+  }
+
+  #research-day-img img {
+    margin: 0 25% 0 25%; /* 25% on each side to make image centered */
+    width: 50%;
+  }
+}
