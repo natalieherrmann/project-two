@@ -144,11 +144,10 @@ a:focus {
   text-decoration: none; /* Remove underline */
 }
 
-#contact-links a:hover,
+#contact-links li:hover,
 #contact-links a:active,
 #contact-links a:focus,
 #nav-bar li:hover,
-#nav-bar li a:hover,
 #nav-bar li a:active,
 #nav-bar li a:focus {
   color: #fefefe;
