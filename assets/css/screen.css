@@ -71,6 +71,13 @@ figcaption {
 }
 
 /* ==== LAYOUT STYLES ==== */
+#name {
+  background-image: linear-gradient(#005959, #00a7a7);
+  color: #fefefe;
+  font-size: 1.602em;
+  text-align: center;
+}
+
 #achievements h4 {
   font-family: "Paytone One", "Gill Sans", Verdana, sans-serif;
 }
@@ -180,7 +187,7 @@ a:focus {
     border-top: 0.2777em solid #00a7a7;
     margin-left: auto; /* Centers body on page */
     margin-right: auto; /* Centers body on page */
-    margin-top: 2.5em; /* nav-bar is around ~45px, 45 / 18
+    margin-top: 2.5em; /* nav-bar is around ~45px, 45 / 18 */
     width: 32.8em; /* 590.4 / 18 = 32.8 */
     padding: 1.833333em 5%;
   }
