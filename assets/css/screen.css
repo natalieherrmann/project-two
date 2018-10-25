@@ -63,6 +63,8 @@ img {
 }
 
 figcaption {
+  background-color: #f4f6f7;
+  padding: 0.2777em; /* 5px / 18px = .2777em */
   font-size: 0.889em;
   color: #333333;
   margin-bottom: 0.6111em; /* half of one lead (22), 11 / 18 = 0.61111 */
