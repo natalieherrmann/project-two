@@ -69,6 +69,23 @@ figcaption {
 }
 
 /* ==== LAYOUT STYLES ==== */
+#achievements h4 {
+  font-family: "Paytone One", "Gill Sans", Verdana, sans-serif;
+}
+
+#achievements li, #skills li, .job-responsibilities li {
+  list-style: disc;
+}
+
+.job-responsibilities h5 {
+  font-size: 1.125em;
+}
+
+.job-info {
+  background-color: #f4f6f7;
+  margin-bottom: 0.6111em; /* half of one lead (22), 11 / 18 = 0.61111 */
+  padding-left:  0.6111em;
+}
 
 /* ==== MODULAR STYLES === */
 #contact-links, nav > #nav-bar {
