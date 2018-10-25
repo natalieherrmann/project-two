@@ -177,13 +177,25 @@ a:focus {
     background-color: #fefefe;
     border-bottom: 0.2777em solid #00a7a7; /* 5px / 18px = .2777em */
     border-top: 0.2777em solid #00a7a7;
-    margin-left:auto; /* Centers body on page */
-    margin-right:auto; /* Centers body on page */
+    margin-left: auto; /* Centers body on page */
+    margin-right: auto; /* Centers body on page */
     width: 32.8em; /* 590.4 / 18 = 32.8 */
     padding: 1.833333em 5%;
   }
 
   html {
     background-color: #005959;
+  }
+
+  footer {
+    position: absolute;
+    margin-top: 5%;
+    left: 0;
+    width: 100vw;
+  }
+
+  #contact h2 {
+    color: white;
+    padding: 0 0.2777em; /* 5px / 18px = .2777em */
   }
 }
