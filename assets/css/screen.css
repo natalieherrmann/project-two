@@ -188,10 +188,10 @@ a:focus {
   }
 
   footer {
-    position: absolute;
-    margin-top: 5%;
     left: 0;
-    width: 100vw;
+    margin-top: 5%;
+    position: absolute;
+    width: 100%;
   }
 
   #contact h2 {
