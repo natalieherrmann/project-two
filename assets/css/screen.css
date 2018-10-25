@@ -16,7 +16,7 @@ Modular scale (major second):https://www.modularscale.com/?18&px&1.125 */
 
 html {
   background-color: #fefefe;
-  color: #262626;
+  color: #262626; /* Off-white */
   font-family: "Playfair Display", Georgia, "Lucida Bright", serif;
   font-size: 1.125em; /* 16px = 1em, 18px / 16px = 1.125em */
   line-height: 1.222em; /* 18px * 120% = 21.6px, 22px / 18px = 1.222em */
@@ -28,8 +28,9 @@ p {
 }
 
 h1, h2 {
-  clear: both;
-  font-family: "Paytone One", "Gill Sans", Verdana, sans-serif;
+  clear: both; /* If float is in use by the nav-bar (preferred behavior flex)*/
+  font-family: "Paytone One", "Gill Sans", Verdana, sans-serif; /* Use this
+  font for contrast from normal text */
   font-size: 1.424em;
   line-height: 1.8333em; /* Basic line height is 22px = 1.222em, plus one half 33px / 18 = 1.8333em */
 }
@@ -41,8 +42,8 @@ h3, h4, h5 {
 
 h3, #about h2 {
   border-bottom: solid 0.2777em #00a7a7; /* 5px / 18px = .2777em */
-  margin-bottom: 0.6111em; /* half of one lead (22), 11 / 18 = 0.61111 */
   font-family: "Paytone One", "Gill Sans", Verdana, sans-serif;
+  margin-bottom: 0.6111em; /* half of one lead (22), 11 / 18 = 0.61111 */
 }
 
 ul {
@@ -63,23 +64,24 @@ img {
 }
 
 figcaption {
-  background-color: #f4f6f7;
+  background-color: #f4f6f7; /* Light grey */
   padding: 0.2777em; /* 5px / 18px = .2777em */
   font-size: 0.889em;
-  color: #333333;
+  color: #4d4d4d; /* Lighter font color then #262626 */
   margin-bottom: 0.6111em; /* half of one lead (22), 11 / 18 = 0.61111 */
 }
 
 /* ==== LAYOUT STYLES ==== */
 #name {
   background-image: linear-gradient(#005959, #00a7a7);
-  color: #fefefe;
+  color: #fefefe; /* Off-white */
   font-size: 1.602em;
   text-align: center;
 }
 
 .job {
-  margin-bottom: 1.83333em; /* Line height = 22px. Line height * 1.5 / 18px = 1.83333em */
+  margin-bottom: 1.83333em;
+  /* Line height = 22px. Line height * 1.5 / 18px = 1.83333em */
 }
 
 .title {
@@ -87,7 +89,7 @@ figcaption {
 }
 
 .time, .location, .date, .title-desc {
-  color: #4d4d4d;
+  color: #4d4d4d; /* Lighter font color then #262626 */
   line-height: 1em; /* 18px / 18px = 1em */
 }
 
@@ -108,28 +110,28 @@ figcaption {
 }
 
 .job-info {
-  background-color: #f4f6f7;
+  background-color: #f4f6f7; /* Light grey */
   margin-bottom: 0.6111em; /* half of one lead (22), 11 / 18 = 0.61111 */
   padding-left: 0.6111em;
 }
 
 .view-pdf {
-  background-color: #e4e4e4;
+  background-color: #e4e4e4; /* Slightly darker light grey */
   border-radius: 0.2777em; /* Rounds the edges of the box */
   /* 5px / 18px = .2777em */
-  padding: 0.2777em;
-  text-decoration: none; /* Remove underline */
+  padding: 0.2777em; /* 5px / 18px = .2777em */
+  text-decoration: none; /* Remove underline from link */
 }
 
 .view-pdf:hover,
 .view-pdf:active,
 .view-pdf:focus {
-  background-color: #f4f6f7;
+  background-color: #f4f6f7; /* Light grey */
 }
 
 /* ==== MODULAR STYLES === */
 #contact-links, nav > #nav-bar {
-  background-color: #00a7a7;
+  background-color: #00a7a7; /* Light Teal */
   border-bottom: solid #00a7a7 0.2777em; /* 5px / 18px = .2777em */
   border-top: solid #00a7a7 0.2777em; /* 5px / 18px = .2777em */
   display: flex;
@@ -144,8 +146,8 @@ figcaption {
 }
 
 #contact-links > li, #nav-bar > li {
-  background-color: #00a7a7;
-  float: left;
+  background-color: #00a7a7; /* Light Teal */
+  float: left; /* Float if browser doesn't support flex */
   margin-top: 0;
   padding: 0.2777em; /* 5px / 18px = .2777em */
 }
@@ -153,7 +155,7 @@ figcaption {
 a:hover,
 a:active,
 a:focus {
-  color: #00a7a7;
+  color: #00a7a7; /* Light Teal */
 }
 
 #contact-links a, #nav-bar li a {
@@ -167,13 +169,13 @@ a:focus {
 #nav-bar li:hover,
 #nav-bar li a:active,
 #nav-bar li a:focus {
-  color: #fefefe;
-  background-color: #52c3c3;
+  background-color: #52c3c3; /* Lighter Teal */
+  color: #fefefe; /* Off-White */
 }
 
 #nav-bar #current a {
+  border-bottom: solid #52c3c3; /* Lighter Teal */
   border-top: solid #52c3c3;
-  border-bottom: solid #52c3c3;
 }
 
 /* ==== STATE STYLES === */
@@ -185,7 +187,7 @@ a:focus {
   }
 
   #research-day-img {
-    background-color: #f4f6f7;
+    background-color: #f4f6f7; /* Light grey */
   }
 
   #research-day-img img {
@@ -198,9 +200,9 @@ a:focus {
   /* 9% padding * 720 = 64.8 * 2 = 129.6 */
   /* 800 - 144 = 590.4px-wide */
   body {
-    background-color: #fefefe;
+    background-color: #fefefe; /* Off-white */
     border-bottom: 0.2777em solid #00a7a7; /* 5px / 18px = .2777em */
-    border-top: 0.2777em solid #00a7a7;
+    border-top: 0.2777em solid #00a7a7; /* Light Teal */
     margin-left: auto; /* Centers body on page */
     margin-right: auto; /* Centers body on page */
     width: 32.8em; /* 590.4 / 18 = 32.8 */
@@ -208,6 +210,6 @@ a:focus {
   }
 
   html {
-    background-color: #005959;
+    background-color: #005959; /* Dark Teal */
   }
 }
