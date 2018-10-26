@@ -115,6 +115,10 @@ figcaption {
   padding-left: 0.6111em;
 }
 
+#resume h2 {
+  padding-bottom: 0.6111em; /* (22 / 2) 11px / 18px = 0.6111em */
+}
+
 .view-pdf {
   background-color: #e4e4e4; /* Slightly darker light grey */
   border-radius: 0.2777em; /* Rounds the edges of the box */
