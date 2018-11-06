@@ -27,7 +27,8 @@ p {
   padding-bottom: 1.222em; /* 18px * 120% = 21.6px, 22px / 18px = 1.222em */
 }
 
-h1, h2 {
+h1,
+h2 {
   clear: both; /* If float is in use by the nav-bar (preferred behavior flex)*/
   font-family: "Paytone One", "Gill Sans", Verdana, sans-serif; /* Use this
   font for contrast from normal text */
@@ -35,12 +36,15 @@ h1, h2 {
   line-height: 1.8333em; /* Basic line height is 22px = 1.222em, plus one half 33px / 18 = 1.8333em */
 }
 
-h3, h4, h5 {
+h3,
+h4,
+h5 {
   font-size: 1.266em;
   line-height: 1.528em; /* Basic line height is 22px = 1.222em, plus one fourth 27.5px / 18 = 1.528em */
 }
 
-h3, #about h2 {
+h3,
+#about h2 {
   border-bottom: solid 0.2777em #00a7a7; /* 5px / 18px = .2777em */
   font-family: "Paytone One", "Gill Sans", Verdana, sans-serif;
   margin-bottom: 0.6111em; /* half of one lead (22), 11 / 18 = 0.61111 */
@@ -88,7 +92,10 @@ figcaption {
   font-weight: bold;
 }
 
-.time, .location, .date, .title-desc {
+.time,
+.location,
+.date,
+.title-desc {
   color: #4d4d4d; /* Lighter font color then #262626 */
   line-height: 1em; /* 18px / 18px = 1em */
 }
@@ -101,7 +108,9 @@ figcaption {
   font-family: "Paytone One", "Gill Sans", Verdana, sans-serif;
 }
 
-.job-responsibilities li, #achievements li, #skills li {
+.job-responsibilities li,
+#achievements li,
+#skills li {
   list-style: disc;
 }
 
@@ -134,7 +143,8 @@ figcaption {
 }
 
 /* ==== MODULAR STYLES === */
-#contact-links, nav > #nav-bar {
+#contact-links,
+nav > #nav-bar {
   background-color: #00a7a7; /* Light Teal */
   border-bottom: solid #00a7a7 0.2777em; /* 5px / 18px = .2777em */
   border-top: solid #00a7a7 0.2777em; /* 5px / 18px = .2777em */
@@ -149,7 +159,8 @@ figcaption {
   margin-top: 1.8333em; /* one lead (22) + half (11) = 33 / 18 = 1.8333 */
 }
 
-#contact-links > li, #nav-bar > li {
+#contact-links > li,
+#nav-bar > li {
   background-color: #00a7a7; /* Light Teal */
   float: left; /* Float if browser doesn't support flex */
   margin-top: 0;
@@ -162,7 +173,8 @@ a:focus {
   color: #00a7a7; /* Light Teal */
 }
 
-#contact-links a, #nav-bar li a {
+#contact-links a,
+#nav-bar li a {
   color: #fefefe;
   text-decoration: none; /* Remove underline */
 }
