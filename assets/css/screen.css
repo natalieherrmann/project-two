@@ -17,7 +17,7 @@ Modular scale (major second):https://www.modularscale.com/?18&px&1.125 */
 html {
   background-color: #fefefe;
   color: #262626; /* Off-white */
-  font-family: "Playfair Display", Georgia, "Lucida Bright", serif;
+  font-family: "PT Serif", Georgia, "Lucida Bright", serif;
   font-size: 1.125em; /* 16px = 1em, 18px / 16px = 1.125em */
   line-height: 1.222em; /* 18px * 120% = 21.6px, 22px / 18px = 1.222em */
   padding: 1.222em; /* 22px / 18px = 1.222em */
