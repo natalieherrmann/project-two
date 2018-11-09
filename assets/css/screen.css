@@ -84,35 +84,6 @@ figcaption {
   text-align: center;
 }
 
-.job {
-  border-bottom: 0.1389em solid #00a7a7; /* Light Teal border between each job half the size of borders used for headings, 2.5px / 18 = 0.1388889 */
-  padding-top: 0.61111em; /* Space between each job same as space after li */
-}
-
-/* Style for first job experience */
-.first {
-  padding-top: 0;
-}
-
-/* Style for last job experience */
-.last {
-  border-bottom: none;
-  /* No horizontal line between the last job experience and the next section, Skills */
-}
-
-.title {
-  font-weight: bold;
-}
-
-.time,
-.location,
-.date,
-.title-desc {
-  color: #4d4d4d; /* Lighter font color then #262626 */
-  line-height: 1em; /* 18px / 18px = 1em */
-  padding-left: 1.222em; /* Same as ul padding */
-}
-
 #education-list,
 .job-info {
   padding-left: 0; /* Don't indent everything like normal ul */
@@ -124,25 +95,6 @@ figcaption {
   list-style: disc;
 }
 
-.job-responsibilities h5 {
-  font-size: 1em; /* Same size as li */
-}
-
-.view-pdf {
-  background-color: #e4e4e4; /* Slightly darker light grey */
-  border-radius: 0.2777em; /* Rounds the edges of the box */
-  /* 5px / 18px = .2777em */
-  padding: 0.2777em; /* 5px / 18px = .2777em */
-  text-decoration: none; /* Remove underline from link */
-}
-
-.view-pdf:hover,
-.view-pdf:active,
-.view-pdf:focus {
-  background-color: #f4f6f7; /* Light grey */
-}
-
-/* ==== MODULAR STYLES === */
 #contact-links,
 nav > #nav-bar {
   background-color: #00a7a7; /* Light Teal */
@@ -192,6 +144,55 @@ a:focus {
 #nav-bar #current a {
   border-bottom: solid #52c3c3; /* Lighter Teal */
   border-top: solid #52c3c3;
+}
+
+/* ==== MODULAR STYLES === */
+
+.job {
+  border-bottom: 0.1389em solid #00a7a7; /* Light Teal border between each job half the size of borders used for headings, 2.5px / 18 = 0.1388889 */
+  padding-top: 0.61111em; /* Space between each job same as space after li */
+}
+
+/* Style for first job experience */
+.first {
+  padding-top: 0;
+}
+
+/* Style for last job experience */
+.last {
+  border-bottom: none;
+  /* No horizontal line between the last job experience and the next section, Skills */
+}
+
+.title {
+  font-weight: bold;
+}
+
+.time,
+.location,
+.date,
+.title-desc {
+  color: #4d4d4d; /* Lighter font color then #262626 */
+  line-height: 1em; /* 18px / 18px = 1em */
+  padding-left: 1.222em; /* Same as ul padding */
+}
+
+.job-responsibilities h5 {
+  font-size: 1em; /* Same size as li */
+}
+
+.view-pdf {
+  background-color: #e4e4e4; /* Slightly darker light grey */
+  border-radius: 0.2777em; /* Rounds the edges of the box */
+  /* 5px / 18px = .2777em */
+  padding: 0.2777em; /* 5px / 18px = .2777em */
+  text-decoration: none; /* Remove underline from link */
+}
+
+.view-pdf:hover,
+.view-pdf:active,
+.view-pdf:focus {
+  background-color: #f4f6f7; /* Light grey */
 }
 
 /* ==== STATE STYLES === */
