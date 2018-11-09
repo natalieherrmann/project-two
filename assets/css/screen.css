@@ -197,19 +197,21 @@ a:focus {
 
 /* ==== STATE STYLES === */
 
-@media screen and (min-width: 600px) {
-  html {
-    padding: 1.833333em 9%; /* 54px (aka 3 typographic grid lines) / 600 = 0.09 */
-    /* 22px + 11px / 18px = 1.833333em */
-  }
-
+@media screen and (min-width: 400px) {
   #research-day-img {
     background-color: #f4f6f7; /* Light grey */
   }
 
   #research-day-img img {
-    margin: 0 25% 0 25%; /* 25% on each side to make image centered */
-    width: 50%;
+    margin: 0 auto 0 auto; /* Centers */
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  html {
+    padding: 1.833333em 9%; /* 54px (aka 3 typographic grid lines) / 600 = 0.09 */
+    /* 22px + 11px / 18px = 1.833333em */
   }
 }
 
@@ -228,5 +230,14 @@ a:focus {
 
   html {
     background-color: #005959; /* Dark Teal */
+  }
+
+  #isi-img {
+    background-color: #f4f6f7; /* Light grey */
+  }
+
+  #isi-img img {
+    margin: 0 auto 0 auto;
+    width: 70%;
   }
 }
