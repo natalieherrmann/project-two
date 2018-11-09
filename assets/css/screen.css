@@ -32,7 +32,7 @@ h2 {
   clear: both; /* If float is in use by the nav-bar (preferred behavior flex)*/
   font-family: "Paytone One", "Gill Sans", Verdana, sans-serif; /* Use this
   font for contrast from normal text */
-  font-size: 1.424em;
+  font-size: 1.602em;
   line-height: 1.8333em; /* Basic line height is 22px = 1.222em, plus one half 33px / 18 = 1.8333em */
 }
 
@@ -80,7 +80,6 @@ figcaption {
 #name {
   background-image: linear-gradient(#005959, #00a7a7);
   color: #fefefe; /* Off-white */
-  font-size: 1.602em;
   text-align: center;
 }
 
@@ -259,5 +258,9 @@ a:focus {
   html {
     background-color: #005959; /* Dark Teal */
     margin: 0 5% 0 5%;
+  }
+
+  #name {
+    font-size: 1.802em;
   }
 }
