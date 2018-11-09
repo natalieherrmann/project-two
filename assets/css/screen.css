@@ -216,28 +216,38 @@ a:focus {
 }
 
 @media screen and (min-width: 720px) {
-  /* 9% padding * 720 = 64.8 * 2 = 129.6 */
-  /* 800 - 144 = 590.4px-wide */
-  body {
-    background-color: #fefefe; /* Off-white */
-    border-bottom: 0.2777em solid #00a7a7; /* 5px / 18px = .2777em */
-    border-top: 0.2777em solid #00a7a7; /* Light Teal */
-    margin-left: auto; /* Centers body on page */
-    margin-right: auto; /* Centers body on page */
-    width: 32.8em; /* 590.4 / 18 = 32.8 */
-    padding: 1.833333em 5%;
-  }
-
-  html {
-    background-color: #005959; /* Dark Teal */
-  }
-
   #isi-img {
     background-color: #f4f6f7; /* Light grey */
   }
 
   #isi-img img {
-    margin: 0 auto 0 auto;
+    margin: 0 auto 0 auto; /* Centers */
     width: 70%;
+  }
+
+  #research-day-img {
+    width: 40%;
+    float: right;
+    margin-left: 2%; /* Space between picture and text */
+  }
+
+  #research-day-img img {
+    margin: 0 0 0 0;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  body {
+    background-color: #fefefe; /* Off-white */
+    border-bottom: 0.2777em solid #00a7a7; /* 5px / 18px = .2777em */
+    border-top: 0.2777em solid #00a7a7; /* Light Teal */
+    margin: 0 auto 0 auto; /* Centers body on page */
+    padding: 1.833333em 5%; /* 22px + 11px / 18px = 1.833333em */
+  }
+
+  html {
+    background-color: #005959; /* Dark Teal */
+    margin: 0 5% 0 5%;
   }
 }
