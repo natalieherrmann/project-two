@@ -15,8 +15,8 @@ Modular scale (major second):https://www.modularscale.com/?18&px&1.125 */
 /* ===== BASE STYLES ===== */
 
 html {
-  background-color: #fefefe;
-  color: #262626; /* Off-white */
+  background-color: #fefefe; /* Off-white */
+  color: #262626; /* Dark grey */
   font-family: "PT Serif", Georgia, "Lucida Bright", serif;
   font-size: 1.125em; /* 16px = 1em, 18px / 16px = 1.125em */
   line-height: 1.222em; /* 18px * 120% = 21.6px, 22px / 18px = 1.222em */
@@ -44,7 +44,8 @@ h5 {
 }
 
 h3,
-#about h2 {
+#about h2,
+#achievements h4 {
   border-bottom: solid 0.2777em #00a7a7; /* 5px / 18px = .2777em */
   font-family: "Paytone One", "Gill Sans", Verdana, sans-serif;
   margin-bottom: 0.6111em; /* half of one lead (22), 11 / 18 = 0.61111 */
@@ -84,8 +85,19 @@ figcaption {
 }
 
 .job {
-  margin-bottom: 1.83333em;
-  /* Line height = 22px. Line height * 1.5 / 18px = 1.83333em */
+  border-bottom: 0.1389em solid #00a7a7; /* Light Teal border between each job half the size of borders used for headings, 2.5px / 18 = 0.1388889 */
+  padding-top: 0.61111em; /* Space between each job same as space after li */
+}
+
+/* Style for first job experience */
+.first {
+  padding-top: 0;
+}
+
+/* Style for last job experience */
+.last {
+  border-bottom: none;
+  /* No horizontal line between the last job experience and the next section, Skills */
 }
 
 .title {
@@ -98,14 +110,12 @@ figcaption {
 .title-desc {
   color: #4d4d4d; /* Lighter font color then #262626 */
   line-height: 1em; /* 18px / 18px = 1em */
+  padding-left: 1.222em; /* Same as ul padding */
 }
 
-#education-list {
-  padding-left: 0;
-}
-
-#achievements h4 {
-  font-family: "Paytone One", "Gill Sans", Verdana, sans-serif;
+#education-list,
+.job-info {
+  padding-left: 0; /* Don't indent everything like normal ul */
 }
 
 .job-responsibilities li,
@@ -115,17 +125,7 @@ figcaption {
 }
 
 .job-responsibilities h5 {
-  font-size: 1.125em;
-}
-
-.job-info {
-  background-color: #f4f6f7; /* Light grey */
-  margin-bottom: 0.6111em; /* half of one lead (22), 11 / 18 = 0.61111 */
-  padding-left: 0.6111em;
-}
-
-#resume h2 {
-  padding-bottom: 0.6111em; /* (22 / 2) 11px / 18px = 0.6111em */
+  font-size: 1em; /* Same size as li */
 }
 
 .view-pdf {
