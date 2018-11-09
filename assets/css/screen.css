@@ -195,6 +195,16 @@ a:focus {
   background-color: #f4f6f7; /* Light grey */
 }
 
+#resume h2 {
+  padding-bottom: 0.2777em;
+  /* Extra spacing for this page's view-pdf, which has 0.277em padding */
+}
+
+#resume p {
+  padding-bottom: 0.5554em;
+  /* Extra spacing for this page's view-pdf, which has 0.277em padding, 0.277 * 2 = 0.5554 */
+}
+
 /* ==== STATE STYLES === */
 
 @media screen and (min-width: 400px) {
@@ -226,9 +236,9 @@ a:focus {
   }
 
   #research-day-img {
-    width: 40%;
     float: right;
     margin-left: 2%; /* Space between picture and text */
+    width: 40%;
   }
 
   #research-day-img img {
